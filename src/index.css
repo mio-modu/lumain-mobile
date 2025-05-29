@@ -1,0 +1,32 @@
+/* Global styles for Lumain */
+:root {
+  --deep-blue: #0a2342;
+  --white: #ffffff;
+  --accent-blue: #2563ff;
+  --text-dark: #16213e;
+  --text-light: #eaf1fb;
+  --radius: 18px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Manrope', Arial, sans-serif;
+  background: var(--deep-blue);
+  color: var(--text-light);
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--white);
+} 
